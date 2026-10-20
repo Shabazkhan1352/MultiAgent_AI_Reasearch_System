@@ -7,9 +7,9 @@ from tools import web_search, scrape_url
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+load_dotenv(override=True)
 
-llm = ChatGroq(model="openai/gpt-oss-20b", api_key=os.getenv("GROQ_API_KEY"), temperature=0, max_output_tokens=500)
+llm = ChatGroq(model="openai/gpt-oss-20b", api_key=os.getenv("GROQ_API_KEY"), temperature=0, max_tokens=500)
 
 # first agent
 

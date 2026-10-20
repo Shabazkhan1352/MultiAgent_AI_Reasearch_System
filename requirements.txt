@@ -10,3 +10,5 @@ python-dotenv
 pydantic
 pytest
 rich
+fastapi
+uvicorn[standard]
