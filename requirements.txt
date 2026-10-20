@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-openai
+langchain-groq
+langchain-mistralai
+tavily-python
+beautifulsoup4
+requests
+python-dotenv
+pydantic
+pytest
+rich
